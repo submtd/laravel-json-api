@@ -1,0 +1,22 @@
+{
+    "name": "submtd/laravel-json-api",
+    "authors": [
+        {
+            "name": "Steve Harmeyer",
+            "email": "harmeyersteve@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Submtd\\LaravelJsonApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Submtd\\LaravelJsonApi\\Providers\\LaravelJsonApiServiceProvider"
+            ]
+        }
+    }
+}
